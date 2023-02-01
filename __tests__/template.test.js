@@ -1,14 +1,7 @@
 // import Object from './../src/TEMPLATE.js';
-// test 1('', () => {
-//   const  = new 
-//   expect(x).toEqual(y);
-//   expect(triangle.side2).toEqual(4);
-//   expect(triangle.side3).toEqual(5);
+// describe('OBJECT', () => {
 // });
-
-// test 2('', () => {
-//   const  = new 
-//   expect(x).toEqual(y);
-//   expect(triangle.side2).toEqual(4);
-//   expect(triangle.side3).toEqual(5);
+// test('DESCRIBE TEST', () => {
+//   const VARIABLE = new OBJECT();
+//   expect(VARIABLE.THING).toEqual();
 // });
