@@ -1,4 +1,4 @@
-//template
+// import Object from './../src/TEMPLATE.js';
 // test 1('', () => {
 //   const  = new 
 //   expect(x).toEqual(y);
