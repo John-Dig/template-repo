@@ -14,7 +14,7 @@
 ## Description
 
 ## Setup/Installation Requirements
-# correct template by installing babel and jest!!!
+- Rename name "TEMPLATE" in package.json to reflect new project 
 - Installing all packages with $ npm install.
 - Building the project using webpack with $ npm run build
 - Starting a development server with $ npm run start
