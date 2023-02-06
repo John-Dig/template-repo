@@ -2,6 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const ESLintPlugin = require('eslint-webpack-plugin');
+const Dotenv = require('dotenv-webpack');
 
 module.exports = {
   entry: './src/index.js',
@@ -9,20 +10,21 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist')
   },
-	devServer: {                 
+  devServer: {                 
     contentBase: './dist'      
   },                           
-	devtool: 'eval-source-map',
+  devtool: 'eval-source-map',
   plugins: [
-		new ESLintPlugin(),
+    new ESLintPlugin(),
     new CleanWebpackPlugin({
-			verbose: true
-		}),
-		new HtmlWebpackPlugin({
+      verbose: true
+    }),
+    new HtmlWebpackPlugin({
       title: 'TEMPLATE',
       template: './src/index.html',
       inject: 'body'
-    })
+    }),
+    new Dotenv()
   ],
   module: {
     rules: [
