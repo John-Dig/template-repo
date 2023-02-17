@@ -1,6 +1,6 @@
-# (Application Name)
+# TEMPLATE REPO 
 
-#### (Brief Description of Application)
+#### note that different versions are on different branches, so I only have one repo for TEMPLATE. 
 
 #### By (Your Name Here)
 
