@@ -18,6 +18,7 @@
 
 ## Setup/Installation Requirements
 - Rename name "TEMPLATE REPO GH-PAGES" in package.json and webpack.config.js to reflect new project 
+- Update the url to reflect the project name
 - Create a new .env file in the root directory if APIs with required keys are needed
 - Installing all packages with $ npm install.
 - Building the project using webpack with $ npm run build
