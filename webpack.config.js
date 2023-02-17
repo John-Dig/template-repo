@@ -20,7 +20,7 @@ module.exports = {
       verbose: true
     }),
     new HtmlWebpackPlugin({
-      title: 'TEMPLATE',
+      title: 'TEMPLATE REPO GH-PAGES',
       template: './src/index.html',
       inject: 'body'
     }),

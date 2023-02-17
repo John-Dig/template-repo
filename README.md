@@ -1,20 +1,24 @@
-# (Application Name)
+# TEMPLATE REPO GH-PAGES
 
 #### (Brief Description of Application)
 
-#### By (Your Name Here)
+#### By John Diggins
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* HTML
+* CSS
+* JavaScript
+* webpack
+* jest
+* GitHub
+
 
 ## Description
 
 ## Setup/Installation Requirements
-- Rename name "TEMPLATE" in package.json to reflect new project 
+- Rename name "TEMPLATE REPO GH-PAGES" in package.json and webpack.config.js to reflect new project 
+- Create a new .env file in the root directory if APIs with required keys are needed
 - Installing all packages with $ npm install.
 - Building the project using webpack with $ npm run build
 - Starting a development server with $ npm run start
